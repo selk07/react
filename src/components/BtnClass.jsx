@@ -2,9 +2,12 @@ import React from "react";
 
 
 class ButtonComponent extends React.Component{
-      state={name:'Alex'};
-      NameChange=()=>{this.setState({ name: this.state.name='Олександр' })
-      };
+   constructor(){
+      super()
+      this.state={name:'Alex'};
+   }
+   NameChange=()=>{this.setState({ name: this.state.name='Олександр' })
+   }
    
    render() {
       return(
