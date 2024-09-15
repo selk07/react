@@ -9,7 +9,7 @@ function Stateful (props) {
    }
    return (
       <> 
-         <input style={{ width:"200px", padding: "10px", textAlign: "center"}} value={text} onChange={ChangeInput} />
+         <input style={{ width:"200px", padding: "10px", textAlign: "center"}} type="text" value={text} onChange={ChangeInput} />
          <p>Ваше ім'я {text}</p>
          <button style={{ width:"200px", padding: "20px", textAlign: "center", color: "blue", fontSize:"20px"}} onClick={() => setText('Олександр')}>
            {name}
