@@ -12,7 +12,7 @@ class ButtonComponent extends React.Component{
    render() {
       return(
       <> 
-         <input style={{ width:"200px", padding: "10px", textAlign: "center"}} value={this.state.name}  />
+         <input style={{ width:"200px", padding: "10px", textAlign: "center"}} type="text" value={this.state.name}  />
          <p>Ваше ім'я {this.state.name}</p>
          <button style={{ width:"200px", padding: "20px", textAlign: "center", color: "blue", fontSize:"20px"}}
                onClick={this.NameChange}>
